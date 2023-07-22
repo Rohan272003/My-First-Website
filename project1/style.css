@@ -1,4 +1,4 @@
-    *{
+ *{
     padding: 0%;
     margin: 0%;
 }
@@ -302,6 +302,8 @@ h6{
     margin-left: 50px; 
     margin-top: 10px
 }
+
+
 .second{
     background-image: url(images/meetings-page-bg.jpg);
     width: 100%;
@@ -684,3 +686,29 @@ margin-top: 10px;
     text-transform: uppercase;
     text-align: center;
 }
+@media  screen and( max-width:480px){
+    .top{
+   
+        color: rgb(243, 6, 6);
+        display: none;
+    
+    }
+ 
+    .media{
+        float: right;
+        margin-right: 6%;
+        margin-top: 5px;
+        width: 10%;
+        height: 40px;
+        font-family: sans-serif;
+        display: none;
+    }
+    .fa-facebook,.fa-twitter,.fa-whatsapp,.fa-linkedin{
+        padding-top: 5%;
+        padding-left: 8px;
+        font-size: 14px;
+        color: white;
+        line-height: 40px;
+    
+    }
+}    
